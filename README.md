@@ -55,21 +55,22 @@ $ python cloudflair.py myvulnerable.site
 1. Register an account (free) on <https://search.censys.io/register>
 2. Browse to <https://search.censys.io/account/api>, and set two environment variables with your API ID and API secret
 
+**Setup CENSYS API in Terminal First by Following Commands**
 ```bash
-$ export CENSYS_API_ID=...
-$ export CENSYS_API_SECRET=...
+$ export CENSYS_API_ID= ...YOUR_API_ID
+$ export CENSYS_API_SECRET= ...YOUR_API_SECRET
 ```
 
 3. Clone the repository
 
 ```bash
-$ git clone https://github.com/christophetd/cloudflair.git
+$ git clone https://github.com/PushkraJ99/CloudFlair.git
 ```
 
 4. Install the dependencies
 
 ```bash
-$ cd cloudflair
+$ cd CloudFlair
 $ pip install -r requirements.txt
 ```
 
@@ -106,7 +107,7 @@ options:
       Check Cloudfront instead of CloudFlare. (default: False)
 ```
 
-## Docker image
+<!-- ## Docker image
 
 ![MicroBadger Size](https://img.shields.io/microbadger/image-size/christophetd/cloudflair)
 ![MicroBadger Layers](https://img.shields.io/microbadger/layers/christophetd/cloudflair)
@@ -124,9 +125,9 @@ $ cat censys.env
 CENSYS_API_ID=your-id
 CENSYS_API_SECRET=your-secret
 
-$ docker run --rm --env-file=censys.env christophetd/cloudflair myvulnerable.site
+$ docker run --rm --env-file=censys.env PushkraJ99/CloudFlair myvulnerable.site
 ```
 
 ## Compatibility
 
-Tested on 3.6. Feel free to [open an issue](https://github.com/christophetd/cloudflair/issues/new) if you have bug reports or questions.
+Tested on 3.6. Feel free to [open an issue](https://github.com/PushkraJ99/CloudFlair/issues/new) if you have bug reports or questions. -->
